@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-configmap
+  namespace: shopping-app 
+data:
+  connection_string: mongodb://root:example@mongo-service:27017
+
